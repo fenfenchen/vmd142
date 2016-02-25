@@ -1,0 +1,55 @@
+/* line 1, ../scss/_scaffolding.scss */
+body {
+  font-family: "lato", sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #767676;
+  background-color: white;
+}
+
+/* line 9, ../scss/_scaffolding.scss */
+a {
+  color: #767676;
+}
+/* line 13, ../scss/_scaffolding.scss */
+a:hover, a:focus {
+  color: #25cbf5;
+  text-decoration: none;
+}
+
+/* line 4, ../scss/_typography.scss */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "montserrat", serif;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #767676;
+}
+
+/* line 12, ../scss/_typography.scss */
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+/* line 16, ../scss/_typography.scss */
+h1 {
+  font-size: 4m;
+}
+
+/* line 19, ../scss/_typography.scss */
+h2 {
+  font-size: 2m;
+}
+
+/* line 22, ../scss/_typography.scss */
+h3 {
+  font-size: 1.3m;
+}
+
+/* line 25, ../scss/_typography.scss */
+h4 {
+  font-size: 1m;
+}

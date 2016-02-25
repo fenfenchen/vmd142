@@ -1,0 +1,29 @@
+//Colors
+$white:#fff;
+$gray-darker:#353739; //footer background
+$gray-dark:#767676; //header text
+$gray:#999999; //blog date text
+$gray-light:#d4d4d4; //footer text
+$gray-lighter:#f5f4f2; //icon background(about section)
+$blue:#25cbf5; //blue button
+
+//Scaffolding
+$body-bg:$white;
+$text-color:$gray-dark;
+$link-color:$gray-dark;
+$link-hover-color:$blue;
+$link-hover-decoration:none;
+
+//Typography
+$font-family-base:"lato", sans-serif;
+$font-family-headings:"montserrat", serif;
+$font-size-base: 14px;
+$font-size-h1:4m;
+$font-size-h2:2m;
+$font-size-h3:1.3m;
+$font-size-h4:1m;
+$line-height-base: 1.428571429;
+$headings-font-weight: 700;
+$headings-line-height: 1.1;
+$headings-color:$gray-dark;
+
