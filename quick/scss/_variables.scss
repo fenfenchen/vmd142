@@ -15,8 +15,8 @@ $link-hover-color:$blue;
 $link-hover-decoration:none;
 
 //Typography
-$font-family-base:"lato", sans-serif;
-$font-family-headings:"montserrat", serif;
+$font-family-base:'lato', sans-serif;
+$font-family-headings:'montserrat', serif;
 $font-size-base: 14px;
 $font-size-h1:4m;
 $font-size-h2:2m;
@@ -27,3 +27,14 @@ $headings-font-weight: 700;
 $headings-line-height: 1.1;
 $headings-color:$gray-dark;
 
+//Buttons
+$btn-font-family: 'Montserrat',sans-serif;
+$btn-font-size:.8m;
+$btn-font-weight: 200; 
+
+//Navbar
+$navbar-default-bg:$white;
+$navbar-default-font-family: $font-family-headings;
+$navbar-default-link-color: $gray-dark;
+$navbar-default-link-hover-color: $blue;
+$navbar-brand-color: $gray-dark;

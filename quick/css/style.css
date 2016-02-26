@@ -53,3 +53,226 @@ h3 {
 h4 {
   font-size: 1m;
 }
+
+/* line 30, ../scss/_typography.scss */
+.home-text {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.15);
+  margin: 20px 0;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+/* line 40, ../scss/_typography.scss */
+.home-h1 {
+  color: #25cbf5;
+  font-size: 4.5m;
+  font-weight: 200;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 47, ../scss/_typography.scss */
+.home-h1 > span {
+  color: white;
+}
+
+/* line 51, ../scss/_typography.scss */
+.lead {
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+}
+
+/* line 1, ../scss/_navbar.scss */
+.navbar-default {
+  background-color: white;
+  font-family: "montserrat", serif;
+  text-transform: uppercase;
+}
+
+/* line 7, ../scss/_navbar.scss */
+.navbar-default .navbar-brand {
+  font-weight: 700;
+  color: #767676;
+  font-size: 1.5m;
+}
+
+/* line 13, ../scss/_navbar.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #767676;
+}
+/* line 16, ../scss/_navbar.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #25cbf5;
+}
+
+/* line 1, ../scss/_buttons.scss */
+.btn-theme, .btn-dark, .btn-cta, .btn-cta-o {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8m;
+  font-weight: 200;
+  text-transform: uppercase;
+  border-radius: 0;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+/* line 12, ../scss/_buttons.scss */
+.btn-dark {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.3);
+  color: #999999;
+}
+/* line 19, ../scss/_buttons.scss */
+.btn-dark:hover, .btn-dark:focus {
+  background: #000;
+  color: white;
+}
+
+/* line 25, ../scss/_buttons.scss */
+.btn-cta {
+  background-color: #25cbf5;
+  color: white;
+}
+/* line 31, ../scss/_buttons.scss */
+.btn-cta:hover, .btn-cta:focus {
+  background-color: #0ab2dd;
+  color: white;
+}
+
+/* line 37, ../scss/_buttons.scss */
+.btn-cta-o {
+  color: white;
+  border: 1px solid white;
+}
+/* line 43, ../scss/_buttons.scss */
+.btn-cta-o:hover, .btn-cta-o:focus {
+  background-color: white;
+  color: #353739;
+}
+
+/* line 1, ../scss/_forms.scss */
+.form-control {
+  border-radius: 0;
+  margin-bottom: 30px;
+}
+
+/* line 6, ../scss/_forms.scss */
+label {
+  font-weight: 1m;
+}
+
+/* line 1, ../scss/_other.scss */
+#home {
+  background-color: #767676;
+  padding: 40px 0;
+}
+
+/* line 6, ../scss/_other.scss */
+#cta-1 {
+  background-color: #767676;
+}
+
+/* line 10, ../scss/_other.scss */
+#testimonials {
+  background-color: #767676;
+}
+
+/* line 14, ../scss/_other.scss */
+#cta-2 {
+  background-color: #25cbf5;
+  padding: 40px 0;
+}
+
+/* line 19, ../scss/_other.scss */
+#services {
+  background-color: #767676;
+}
+
+/* line 23, ../scss/_other.scss */
+#cta-3 {
+  background-color: #767676;
+  padding: 40px 0;
+}
+
+/* line 28, ../scss/_other.scss */
+#footer {
+  background-color: #767676;
+}
+
+/* line 32, ../scss/_other.scss */
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+/* line 37, ../scss/_other.scss */
+.section-heading {
+  margin-bottom: 40px;
+}
+
+/* line 43, ../scss/_other.scss */
+.color-reverse,
+.color-reverse h2,
+.color-reverse .icon {
+  color: white;
+}
+
+/* line 48, ../scss/_other.scss */
+.color-reverse .icon:before,
+.color-reverse .icon:after {
+  border-bottom-color: white;
+}
+
+/* line 52, ../scss/_other.scss */
+.icon {
+  display: inline-block;
+  font-size: 1.3m;
+  line-height: 1.42857;
+  width: 130px;
+  margin: 0 auto;
+  position: relative;
+  color: #25cbf5;
+}
+
+/* line 63, ../scss/_other.scss */
+.icon:before,
+.icon:after {
+  display: inline-block;
+  content: "";
+  border-bottom: 1px solid #25cbf5;
+  position: absolute;
+  top: 10px;
+  width: 50px;
+}
+
+/* line 72, ../scss/_other.scss */
+.icon:before {
+  left: 0;
+}
+
+/* line 76, ../scss/_other.scss */
+.icon-bg {
+  color: white;
+}
+
+/* line 81, ../scss/_other.scss */
+.icon-bg:before,
+.icon-bg:after {
+  border-bottom-color: white;
+}
+
+/* line 85, ../scss/_other.scss */
+.about-col .fa {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  color: #999999;
+  border-radius: 50%;
+  background-color: #f5f4f2;
+}
