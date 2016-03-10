@@ -192,47 +192,48 @@ label {
 /* line 6, ../scss/_other.scss */
 #cta-1 {
   background-color: #d4d4d4;
+  padding: 40px 0;
 }
 
-/* line 10, ../scss/_other.scss */
+/* line 11, ../scss/_other.scss */
 #testimonials {
   background-color: #767676;
 }
 
-/* line 14, ../scss/_other.scss */
+/* line 15, ../scss/_other.scss */
 #cta-2 {
   background-color: #25cbf5;
   padding: 40px 0;
 }
 
-/* line 19, ../scss/_other.scss */
+/* line 20, ../scss/_other.scss */
 #services {
   background-color: #767676;
 }
 
-/* line 23, ../scss/_other.scss */
+/* line 24, ../scss/_other.scss */
 #cta-3 {
   background-color: #767676;
   padding: 40px 0;
 }
 
-/* line 28, ../scss/_other.scss */
+/* line 29, ../scss/_other.scss */
 #footer {
   background-color: #767676;
 }
 
-/* line 32, ../scss/_other.scss */
+/* line 33, ../scss/_other.scss */
 .section-padding {
   padding-top: 60px;
   padding-bottom: 50px;
 }
 
-/* line 37, ../scss/_other.scss */
+/* line 38, ../scss/_other.scss */
 .section-heading {
   margin-bottom: 40px;
 }
 
-/* line 44, ../scss/_other.scss */
+/* line 45, ../scss/_other.scss */
 .color-reverse,
 .color-reverse h2,
 .color-reverse h3,
@@ -240,13 +241,13 @@ label {
   color: white;
 }
 
-/* line 49, ../scss/_other.scss */
+/* line 50, ../scss/_other.scss */
 .color-reverse .icon:before,
 .color-reverse .icon:after {
   border-bottom-color: white;
 }
 
-/* line 53, ../scss/_other.scss */
+/* line 54, ../scss/_other.scss */
 .icon {
   display: inline-block;
   font-size: 1.3m;
@@ -257,7 +258,7 @@ label {
   color: #25cbf5;
 }
 
-/* line 64, ../scss/_other.scss */
+/* line 65, ../scss/_other.scss */
 .icon:before,
 .icon:after {
   display: inline-block;
@@ -268,23 +269,28 @@ label {
   width: 50px;
 }
 
-/* line 73, ../scss/_other.scss */
+/* line 74, ../scss/_other.scss */
 .icon:before {
   left: 0;
 }
 
-/* line 77, ../scss/_other.scss */
+/* line 78, ../scss/_other.scss */
+.icon:after {
+  right: 0;
+}
+
+/* line 82, ../scss/_other.scss */
 .icon-bg {
   color: white;
 }
 
-/* line 82, ../scss/_other.scss */
+/* line 87, ../scss/_other.scss */
 .icon-bg:before,
 .icon-bg:after {
   border-bottom-color: white;
 }
 
-/* line 86, ../scss/_other.scss */
+/* line 91, ../scss/_other.scss */
 .about-col .fa {
   width: 90px;
   height: 90px;
@@ -294,13 +300,13 @@ label {
   background-color: #f5f4f2;
 }
 
-/* line 95, ../scss/_other.scss */
+/* line 100, ../scss/_other.scss */
 .service-col {
   color: #25cbf5;
   text-align: center;
 }
 
-/* line 100, ../scss/_other.scss */
+/* line 105, ../scss/_other.scss */
 .services-col h3 {
   color: #25cbf5;
   margin-top: 0;
@@ -309,7 +315,7 @@ label {
   font-size: 1.75em;
 }
 
-/* line 108, ../scss/_other.scss */
+/* line 113, ../scss/_other.scss */
 .services-col p {
   color: #999999;
   letter-spacing: 1px;
@@ -317,7 +323,7 @@ label {
   line-height: 2;
 }
 
-/* line 115, ../scss/_other.scss */
+/* line 120, ../scss/_other.scss */
 .services-col .fa {
   width: 70px;
   height: 70px;
@@ -329,12 +335,12 @@ label {
   margin-bottom: 10px;
 }
 
-/* line 126, ../scss/_other.scss */
+/* line 131, ../scss/_other.scss */
 .contact-hours .fa {
   color: #25cbf5;
 }
 
-/* line 130, ../scss/_other.scss */
+/* line 135, ../scss/_other.scss */
 .social-channels .fa {
   width: 40px;
   height: 40px;
@@ -345,25 +351,25 @@ label {
   margin-bottom: 10px;
 }
 
-/* line 140, ../scss/_other.scss */
+/* line 145, ../scss/_other.scss */
 .author {
   color: #25cbf5;
   font-size: 1.1em;
 }
 
-/* line 145, ../scss/_other.scss */
+/* line 150, ../scss/_other.scss */
 .item-img-wrap {
   position: relative;
   text-align: center;
   overflow: hidden;
 }
 
-/* line 151, ../scss/_other.scss */
+/* line 156, ../scss/_other.scss */
 .item-img-wrap img {
   transition: all 200ms linear;
 }
 
-/* line 155, ../scss/_other.scss */
+/* line 160, ../scss/_other.scss */
 .item-img-overlay {
   position: absolute;
   width: 100%;
@@ -372,7 +378,7 @@ label {
   top: 0;
 }
 
-/* line 163, ../scss/_other.scss */
+/* line 168, ../scss/_other.scss */
 .item-img-overlay span {
   width: 100%;
   height: 100%;
@@ -384,47 +390,47 @@ label {
   transition: opacity 250ms liner;
 }
 
-/* line 174, ../scss/_other.scss */
+/* line 179, ../scss/_other.scss */
 .item-img-wrap:hover .item-img-overlay span {
   opacity: 1;
 }
 
-/* line 178, ../scss/_other.scss */
+/* line 183, ../scss/_other.scss */
 .item-img-wrap:hover img {
   transform: scale(1.1);
 }
 
-/* line 182, ../scss/_other.scss */
+/* line 187, ../scss/_other.scss */
 .about-col {
   margin-bottom: 40px;
 }
 
-/* line 186, ../scss/_other.scss */
+/* line 191, ../scss/_other.scss */
 .team-col {
   margin-bottom: 40px;
 }
 
-/* line 190, ../scss/_other.scss */
+/* line 195, ../scss/_other.scss */
 .services-col {
   margin-bottom: 40px;
 }
 
-/* line 194, ../scss/_other.scss */
+/* line 199, ../scss/_other.scss */
 .portfolio-col {
   margin-bottom: 40px;
 }
 
-/* line 198, ../scss/_other.scss */
+/* line 203, ../scss/_other.scss */
 .facts-col {
   margin-bottom: 40px;
 }
 
-/* line 202, ../scss/_other.scss */
+/* line 207, ../scss/_other.scss */
 .blog-col {
   margin-bottom: 40px;
 }
 
-/* line 206, ../scss/_other.scss */
+/* line 211, ../scss/_other.scss */
 .blog-col span {
   color: #999999;
   font-size: .9em;
@@ -433,7 +439,7 @@ label {
 }
 
 @media (min-width: 768px) {
-  /* line 214, ../scss/_other.scss */
+  /* line 219, ../scss/_other.scss */
   .services-col {
     text-align: left;
   }

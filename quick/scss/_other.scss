@@ -5,6 +5,7 @@
 
 #cta-1{
     background-color: $gray-light;
+    padding: 40px 0;
 }
 
 #testimonials{
@@ -72,6 +73,10 @@
 
 .icon:before{
     left: 0;
+}
+
+.icon:after {
+    right: 0;
 }
 
 .icon-bg{
