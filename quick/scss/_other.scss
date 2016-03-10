@@ -4,7 +4,7 @@
 }
 
 #cta-1{
-    background-color: $gray-dark;
+    background-color: $gray-light;
 }
 
 #testimonials{
@@ -40,6 +40,7 @@
 
 .color-reverse,
 .color-reverse h2,
+.color-reverse h3,
 .color-reverse .icon{
     color: $white;
 }
@@ -62,7 +63,7 @@
 .icon:before,
 .icon:after{
     display: inline-block;
-    content:"";
+    content:" ";
     border-bottom: 1px solid $blue;
     position: absolute;
     top: 10px;
@@ -93,6 +94,7 @@
 
 .service-col{
     color: $blue;
+    text-align: center;
 }
 
 .services-col h3{
@@ -133,4 +135,83 @@
     color: $gray;
     background-color: $gray-lighter;
     margin-bottom: 10px;
+}
+
+.author{
+    color: $blue;
+    font-size: 1.1em;
+}
+
+.item-img-wrap{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.item-img-wrap img{
+    transition:all 200ms linear;
+}
+
+.item-img-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.item-img-overlay span{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/plus.png) no-repeat center center rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 250ms liner;
+}
+
+.item-img-wrap:hover .item-img-overlay span{
+    opacity:1;
+}
+
+.item-img-wrap:hover img{
+    transform: scale(1.1);
+}
+
+.about-col{
+    margin-bottom: 40px;
+}
+
+.team-col{
+    margin-bottom: 40px;
+}
+
+.services-col{
+    margin-bottom: 40px;
+}
+
+.portfolio-col{
+    margin-bottom: 40px;
+}
+
+.facts-col{
+    margin-bottom: 40px;
+}
+
+.blog-col{
+    margin-bottom: 40px;
+}
+
+.blog-col span{
+    color: $gray;
+    font-size: .9em;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .services-col {
+        text-align: left;
+    }
 }

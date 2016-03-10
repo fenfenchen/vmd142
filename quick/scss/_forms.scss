@@ -1,6 +1,15 @@
 .form-control{
     border-radius: 0;
     margin-bottom: 30px;
+    font-size: 12px;
+    color: $gray;
+    background: $white;
+    transition: all 200ms ease-in;
+}
+
+.form-control:focus{
+    background: $gray-lighter;
+    border-color: $gray;
 }
 
 label{
