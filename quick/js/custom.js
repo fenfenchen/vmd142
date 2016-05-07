@@ -46,3 +46,50 @@ $(document).ready(function () {
 $(function () {
     $.stellar();
 });
+
+// main flex slider
+$(window).load(function () {
+    $('.main-flex-slider').flexslider({
+        slideshowSpeed: 5000,
+        directionNav: false,
+        animation: "fade",
+        controlNav: false
+    });
+});
+
+// owl carousel
+$(document).ready(function () {
+    $("#testi-carousel").owlCarousel({
+        items: 1,
+		loop: true,
+		autoplay: true,
+		autoplayTimeout: 5000,
+		autoplayHoverPause: true
+    });
+});
+
+// counter up
+jQuery(document).ready(function ($) {
+    $('.counter').counterUp({
+        delay: 100,
+        time: 800
+    });
+});
+
+// magnific popup
+jQuery(document).ready(function ($) {
+	$('.show-image').magnificPopup({
+		type: 'image'
+	});
+});
+
+// wow animate
+var wow = new WOW(
+    {
+            boxClass: 'wow', // animated element css class (default is wow)
+            animateClass: 'animated', // animation css class (default is animated)
+            offset: 100, // distance to the element when triggering the animation (default is 0)
+            mobile: false // trigger animations on mobile devices (true is default)
+       }
+);
+wow.init();
